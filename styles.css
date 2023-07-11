@@ -92,3 +92,26 @@ body{
     background: white;
     color: blue;
 }
+
+/* Media Query for smaller screens */
+@media(max-width: 768px){
+    .quote-card{
+        max-width: 90%;
+        padding: 20px;
+    }
+    .quote-card h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    .quote-card blockquote{
+        font-size: 20px;
+    }
+    .quote-card span::beefore{
+        width: 15px;
+    }
+    .quote-card button{
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
