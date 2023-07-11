@@ -17,3 +17,7 @@ async function getQuote(url){
     authorElement.innerHTML = data[0].author;
 }
 getQuote(api_url)
+
+function tweet(){
+    window.open("https://twitter.com/intent/tweet?text=Hello%20world")
+}
