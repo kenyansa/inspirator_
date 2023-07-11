@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: lavender;
+}
+.quote-card{
+    background:pink;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: violet;
+}
+.quote-card h2{
+    font-family: 'Playfair Display', serif;
+}
+.quote-card h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.quote-card h2::after{
+    content: "";
+    width: 75px;
+    height: 3px;
+    border-radius: 5px;
+    background: blueviolet;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
