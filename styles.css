@@ -25,6 +25,7 @@ body{
 .quote-card h2{
     font-size: 32px;
     margin-bottom: 40px;
+    position: relative;
 }
 .quote-card h2::after{
     content: "";
@@ -36,4 +37,45 @@ body{
     bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
+}
+.quote-card blockquote{
+    font-size: 26px;
+    min-height: 110px;
+}
+.quote-card blockquote::before, .quote-card blockquote::after{
+    content: '"';
+}
+.quote-card span{
+    display: block;
+    margin-top: 10px;
+    float: right;
+    position: relative;
+}
+.quote-card span::before{
+    content: "";
+    width: 20px;
+    height: 2px;
+    background: blueviolet;
+    position: absolute;
+    top: 50%;
+    left: -30px;
+}
+.quote-card div{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.quote-card button{
+    background: blueviolet;
+    color: white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 150px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+
 }
