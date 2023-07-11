@@ -67,9 +67,9 @@ body{
     justify-content: center;
 }
 .quote-card button{
-    background: blueviolet;
-    color: white;
-    border-radius: 10px;
+    background: white;
+    color: black;
+    border-radius: 25px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -77,5 +77,18 @@ body{
     height: 50px;
     margin: 5px;
     cursor: pointer;
-
+}
+.quote-card button:hover{
+    color: white;
+    background: black;
+}
+.quote-card button img{
+    height: 40px;
+    width: auto;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.quote-card button:nth-child(2):hover{
+    background: white;
+    color: blue;
 }
