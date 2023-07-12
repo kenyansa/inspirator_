@@ -83,7 +83,7 @@ body{
     background: black;
 }
 .quote-card button img{
-    height: 40px;
+    max-height: 100%;
     width: auto;
     border-radius: 10px;
     margin-right: 10px;
@@ -110,8 +110,12 @@ body{
         width: 15px;
     }
     .quote-card button{
-        width: 120px;
+        width: 100%;
         height: 40px;
+        flex: 0 0 120px;
         font-size: 14px;
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
     }
 }
